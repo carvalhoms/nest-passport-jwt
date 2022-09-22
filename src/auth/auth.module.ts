@@ -11,7 +11,7 @@ import { AuthService } from './auth.service';
     UsersModule,
     PassportModule,
     JwtModule.register({
-      privateKey: '6ycNSv97/x2i7NjqBNVXlo6gbBW8in9urdFueG6AQ8k=', // Comend generated terminal: #openssl rand -base64 32
+      privateKey: process.env.JWT_SECRET_KEY,
       signOptions: { expiresIn: '60s' },
     }),
   ],
