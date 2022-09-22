@@ -1,10 +1,12 @@
 import {
+  BeforeInsert,
   CreateDateColumn,
   UpdateDateColumn,
   DeleteDateColumn,
   Column,
   PrimaryGeneratedColumn,
 } from 'typeorm';
+import { hashSync } from 'bcrypt';
 
 export class UsersEntity {
   @PrimaryGeneratedColumn('uuid')
@@ -30,4 +32,9 @@ export class UsersEntity {
 
   @DeleteDateColumn({ name: 'deleted_at' })
   deletedAt: string;
+
+  @BeforeInsert()
+  hashPassword() {
+    this.password = hashSync(this.password, 10);
+  }
 }
