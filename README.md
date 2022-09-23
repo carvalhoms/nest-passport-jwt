@@ -23,8 +23,9 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
-## Credits: https://www.youtube.com/c/leobritob
-## Project: https://www.youtube.com/watch?v=jMprSQlDLGo
+## Credits: 
+[Channel: leobritob](https://www.youtube.com/c/leobritob).
+[Project](https://www.youtube.com/watch?v=jMprSQlDLGo).
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
