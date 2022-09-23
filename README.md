@@ -24,6 +24,7 @@
 
 ## Description
 ## Credits: https://www.youtube.com/c/leobritob
+## Project: https://www.youtube.com/watch?v=jMprSQlDLGo
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
